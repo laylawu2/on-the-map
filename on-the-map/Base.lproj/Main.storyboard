@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="1440.5797101449277" y="66.964285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="1Yo-Ds-9yr">
             <objects>
-                <viewController id="wzM-tc-R9a" sceneMemberID="viewController">
+                <viewController id="wzM-tc-R9a" customClass="MapViewController" customModule="on_the_map" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d72-jM-mpX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="6118.840579710145" y="-263.16964285714283"/>
         </scene>
-        <!--View Controller-->
+        <!--List View Controller-->
         <scene sceneID="evF-qR-Wsa">
             <objects>
-                <viewController id="3nu-ur-PPr" sceneMemberID="viewController">
+                <viewController id="3nu-ur-PPr" customClass="ListViewController" customModule="on_the_map" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xro-XV-igx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
