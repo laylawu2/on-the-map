@@ -15,6 +15,10 @@
 		EE8296362625F5D400410E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8296342625F5D400410E7B /* LaunchScreen.storyboard */; };
 		EE8296412625F5D400410E7B /* on_the_mapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8296402625F5D400410E7B /* on_the_mapTests.swift */; };
 		EE82964C2625F5D400410E7B /* on_the_mapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82964B2625F5D400410E7B /* on_the_mapUITests.swift */; };
+		EE8296672625FB0B00410E7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8296662625FB0B00410E7B /* LoginViewController.swift */; };
+		EE82966C2625FB2000410E7B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82966B2625FB2000410E7B /* MapViewController.swift */; };
+		EE8296712625FB2B00410E7B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8296702625FB2B00410E7B /* ListViewController.swift */; };
+		EE8296762625FB4D00410E7B /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8296752625FB4D00410E7B /* StudentDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		EE8296472625F5D400410E7B /* on-the-mapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "on-the-mapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE82964B2625F5D400410E7B /* on_the_mapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = on_the_mapUITests.swift; sourceTree = "<group>"; };
 		EE82964D2625F5D400410E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8296662625FB0B00410E7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EE82966B2625FB2000410E7B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EE8296702625FB2B00410E7B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EE8296752625FB4D00410E7B /* StudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		EE8296282625F5D300410E7B /* on-the-map */ = {
 			isa = PBXGroup;
 			children = (
+				EE8296652625FAD100410E7B /* Model */,
+				EE82965C2625FAAD00410E7B /* ViewController */,
 				EE8296292625F5D300410E7B /* AppDelegate.swift */,
 				EE82962B2625F5D300410E7B /* SceneDelegate.swift */,
 				EE82962D2625F5D300410E7B /* ViewController.swift */,
@@ -126,6 +136,24 @@
 				EE82964D2625F5D400410E7B /* Info.plist */,
 			);
 			path = "on-the-mapUITests";
+			sourceTree = "<group>";
+		};
+		EE82965C2625FAAD00410E7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE8296662625FB0B00410E7B /* LoginViewController.swift */,
+				EE82966B2625FB2000410E7B /* MapViewController.swift */,
+				EE8296702625FB2B00410E7B /* ListViewController.swift */,
+				EE8296752625FB4D00410E7B /* StudentDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EE8296652625FAD100410E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8296672625FB0B00410E7B /* LoginViewController.swift in Sources */,
 				EE82962E2625F5D300410E7B /* ViewController.swift in Sources */,
+				EE8296762625FB4D00410E7B /* StudentDetailViewController.swift in Sources */,
+				EE8296712625FB2B00410E7B /* ListViewController.swift in Sources */,
 				EE82962A2625F5D300410E7B /* AppDelegate.swift in Sources */,
+				EE82966C2625FB2000410E7B /* MapViewController.swift in Sources */,
 				EE82962C2625F5D300410E7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
